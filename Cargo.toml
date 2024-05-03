@@ -7,5 +7,15 @@ edition = "2021"
 
 [dependencies]
 m3u = {git = "https://github.com/LindonAliu/m3u", branch = "master", features = ["iptv"]}
-#m3u = {path = "../m3u", features=["iptv"]}
 url = "2.2.2"
+glib = "0.15.12"
+gdk = "0.15.1"  # Mettez à jour cette ligne
+gtk = "0.15.5"
+gst = {package = "gstreamer", version = "0.18.8"}
+gstreamer-audio = "0.18.7"
+gst_video = {package = "gstreamer-video", version = "0.18.7"}
+gstreamer-app = "0.18.7"
+gstreamer-pbutils = "0.18.7"
+byte-slice-cast = "1.2.1"
+anyhow = "1.0.65"
+termion = "1.5.6"
